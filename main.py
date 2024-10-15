@@ -39,7 +39,7 @@ try:
 except Exception as e:
     logger.exception(e)
     raise(e)
-
+'''
 STAGE_NAME = "Model Training stage"
 
 try:
@@ -50,7 +50,7 @@ try:
 except Exception as e:
     logger.exception(e)
     raise(e)
-
+'''
 STAGE_NAME = "Model Evaluation stage"
 
 try:
