@@ -6,11 +6,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY . /app
-# Copy the requirements file
-COPY requirements.txt .
-
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 RUN pip install --upgrade accelerate
 RUN pip uninstall -y transformers accelerate
 RUN pip install transformers accelerate
