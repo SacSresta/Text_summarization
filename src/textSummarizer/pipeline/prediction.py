@@ -14,7 +14,7 @@ class PredictPipeline:
         gen_kwargs = {"length_penalty": 0.8, "num_beams":8, "max_length": 128}
 
 
-        pipe = pipeline("summarization", model=self.cofig.model_path ,tokenizer=tokenizer)
+        pipe = pipeline("summarization", model=self.config.model_path ,tokenizer=tokenizer)
 
         ##
         print("Dialogue:")
