@@ -151,9 +151,3 @@ These metrics compare the model-generated summary with reference (ground truth) 
 Contributions are welcome! Please fork the repo, open issues, and submit pull requests. Let's improve this together.
 
 ---
-
-## 📄 License
-
-MIT License. Feel free to use this project in commercial and non-commercial applications.
-
----
